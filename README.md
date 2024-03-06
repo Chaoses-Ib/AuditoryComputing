@@ -1,4 +1,4 @@
-# [Sound Computing](Sound%20Computing.md)
+# [Auditory Computing](Auditory%20Computing.md)
 ## [Sound Recording](Recording/README.md)
 - [Microphones](Recording/Microphones.md)
 

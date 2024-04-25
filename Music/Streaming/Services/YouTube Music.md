@@ -11,3 +11,10 @@ Ad:
 - Ad Blocker
 - Captions selector
 - Lyrics Genius
+
+## Android
+- [revanced.net/ReVanced YouTube Music](https://revanced.net/revanced-youtube-music)
+- [revanced.net/ReVanced YouTube Music Extended](https://revanced.net/revanced-youtube-music-extended)
+- [revancedextended.com/ReVanced Music](https://revancedextended.com/music/)
+
+Android 7: v6.42.52 (installed via Google Play)

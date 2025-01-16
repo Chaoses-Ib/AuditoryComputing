@@ -10,3 +10,4 @@
 - Streaming
   - [Services](Music/Streaming/Services/README.md)
     - [YouTube Music](Music/Streaming/Services/YouTube%20Music.md)
+    - [网易云音乐](Music/Streaming/Services/网易云音乐.md)

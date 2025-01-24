@@ -27,6 +27,7 @@
     - TF card
     - USB
     - Bluetooth
+  - 包装箱侧面宣传图上放的歌曲是 "OH MY GOD,JAHHHH-"，还有空条承太郎封面
 
 ## Tools
 - Windows

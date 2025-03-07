@@ -2,9 +2,10 @@
 ## [Sound Recording](Recording/README.md)
 - [Microphones](Recording/Microphones.md)
 
-## Sound Playing
+## [Sound Playing](Playing/README.md)
 - [Loudspeakers](Playing/Loudspeakers.md)
 - [Headphones](Playing/Headphones.md)
+- [Streaming](Playing/Streaming.md)
 
 ## [Music](Music/README.md)
 - Streaming

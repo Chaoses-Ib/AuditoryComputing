@@ -3,8 +3,9 @@
 - [Microphones](Recording/Microphones.md)
 
 ## [Sound Playing](Playing/README.md)
-- [Loudspeakers](Playing/Loudspeakers.md)
-- [Headphones](Playing/Headphones.md)
+- [Loudspeakers](Playing/Speakers/README.md)
+  - [Brands](Playing/Speakers/Brands.md)
+- [Headphones](Playing/Headphones/README.md)
 - [Streaming](Playing/Streaming.md)
 
 ## [Music](Music/README.md)

@@ -3,10 +3,14 @@
 - [Microphones](Recording/Microphones.md)
 
 ## [Sound Playing](Playing/README.md)
+- [Surround Sound](Playing/Surround.md)
 - [Loudspeakers](Playing/Speakers/README.md)
   - [Brands](Playing/Speakers/Brands.md)
 - [Headphones](Playing/Headphones/README.md)
 - [Streaming](Playing/Streaming.md)
+
+## [Audio Interfaces](Interfaces/README.md)
+- [Audio Codecs](Interfaces/Codecs.md)
 
 ## [Music](Music/README.md)
 - Streaming

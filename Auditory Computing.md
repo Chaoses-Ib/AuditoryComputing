@@ -7,3 +7,6 @@ Terminology:
 - [word choice - Similar term to "visual" for audio? - English Language & Usage Stack Exchange](https://english.stackexchange.com/questions/215155/similar-term-to-visual-for-audio)
 
   Auditory, aural, audial, auricular.
+
+## Blogs
+- [梦雨玲音 - 专注于ACG和HIFI领域的主观评测BLOG](https://www.rainlain.com/)

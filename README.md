@@ -15,6 +15,7 @@
 ## [Music](Music/README.md)
 - [Players](Music/Players/README.typ)
   - [foobar2000](Music/Players/foobar2000/README.typ)
+    - [DSP](Music/Players/foobar2000/DSP.typ)
   - [MusicBee](Music/Players/MusicBee/README.typ)
 - Streaming
   - [Services](Music/Streaming/Services/README.md)

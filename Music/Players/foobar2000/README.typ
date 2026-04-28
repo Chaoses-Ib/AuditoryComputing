@@ -73,6 +73,9 @@
 #a[Best way to control foobar via tablet/phone? : r/foobar2000][https://www.reddit.com/r/foobar2000/comments/y0r0zs/best_way_to_control_foobar_via_tabletphone/]
 
 = Media Library
+- Monitoring may cause conflict with other processes,
+  like qBittorrent when downloading.
+
 #a[Jon Cairns | foobar2000: 4.2 Playlist organisation][https://blog.joncairns.com/2010/10/foobar2000-4-2-playlist-organisation/]
 
 #a[music - How to play all media in the library in Foobar2000? - Super User][https://superuser.com/questions/111113/how-to-play-all-media-in-the-library-in-foobar2000]

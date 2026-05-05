@@ -34,9 +34,15 @@
 #a[Foobar2000:Commandline Guide - Hydrogenaudio Knowledgebase][https://wiki.hydrogenaudio.org/index.php?title=Foobar2000:Commandline_Guide]
 
 = GUI
-- #a[dream7180/foobox-cn: DUI 配置 for foobar2000][https://github.com/dream7180/foobox-cn]
+- #a[foo_spider_monkey_panel: foobar2000 component that allows to use JavaScript to create CUI/DUI panels][https://github.com/theqwertiest/foo_spider_monkey_panel]
+  - #a[JSplitter v4.1.1 / 3.8.1 \[01.05.2026\] - Плагины - foobar2000][https://foobar2000.club/forum/viewtopic.php?t=6378]
+  - Win32 GDI, now presented in JS.
+
+    #q-i[给 foobox 加了个显示时长，没想到又发现一坨屎，foobar2000 的 js 界面还是用 GDI 绘制的，连 layout 都得手动做…]
+
+- #a[dream7180/foobox-en: DUI theme for foobar2000][https://github.com/dream7180/foobox-en]
   #footnote[#a[本地音乐播放器--foobar2000 经典配置 foobox - V2EX][https://v2ex.com/t/610941]]
-  - #a[dream7180/foobox-en][https://github.com/dream7180/foobox-en]
+  - #a[dream7180/foobox-cn: DUI 配置 for foobar2000][https://github.com/dream7180/foobox-cn]
   - RAM: \~+100 MB
   - #a[最新的8.5版本菜单被隐藏了，怎么才能进到设置页面 - Issue \#360][https://github.com/dream7180/foobox-cn/issues/360]
   - ```pwsh scoop install anderlli0053_DEV-tools/foobox-cn```
@@ -46,8 +52,12 @@
     - `foo_uie_eslyric`
     - `foo_enhanced_spectrum_analyzer`
     - `foo_playcount`
+  - Playlist manager
+    - #a[feat(jsspm): add `showTotalDuration` option by Chaoses-Ib - Pull Request \#20 - dream7180/foobox-en][https://github.com/dream7180/foobox-en/pull/20]
+  - Custom columns
 
 - #a[reupen/columns\_ui: Alternative UI for the foobar2000 audio player][https://github.com/reupen/columns_ui]
+  - #a[Columns UI Item Properties Customization : r/foobar2000][https://www.reddit.com/r/foobar2000/comments/1nr7a1o/columns_ui_item_properties_customization/]
 
 - #a[FB2K\_EsnPC\_2.25.8 For foobar2000主题（集成 MPV&YouTube）20260421更新 | 智享阁][https://www.esnpc.com/foobar2000-themes-esnpc-v2-mpv-youtube/]
   (paid)
@@ -120,6 +130,11 @@
   - #a[Enhanced Playback Statistics][https://www.foobar2000.org/components/view/foo_enhanced_playcount]
     #a-badge[https://github.com/kbuffington/foo_enhanced_playcount]
     #a-badge[https://wiki.hydrogenaudio.org/index.php?title=Foobar2000%3AComponents%2FEnhanced_Playback_Statistics_(foo_enhanced_playcount)]
+    - Cannot be used with `$meta()`?
+    - Last play time:
+      ```fb2k $substr(%played_times%, $strrchr(%played_times%,','), $len(%played_times%))```
+    - Last 2 play times:
+      ```fb2k $substr(%played_times%, $sub($strrchr(%played_times%,','), 20), $len(%played_times%))```
 
 - #a[Last.fm | Play music, find songs, and discover artists][https://www.last.fm/]
   - #a[Scrobble][https://www.foobar2000.org/components/view/foo_scrobble]
@@ -149,3 +164,14 @@
   #a-badge[https://wiki.hydrogenaudio.org/index.php?title=Foobar2000%3AComponents%2FBPM_Analyser_(foo_bpm)]
 
 #a[有哪些推荐的 foobar2000 插件？ - V2EX][https://v2ex.com/t/676955]
+
+= Title formatting
+#a[Foobar2000:Title Formatting Reference - Hydrogenaudio Knowledgebase][https://wiki.hydrogenaudio.org/index.php?title=Foobar2000:Title_Formatting_Reference]
+
+Absolute shit.
+- Can't even `+` a number, and it won't report any error either.
+- Finding a comma must be `$strrchr(%v%,',')`, NOT `$strrchr(%v%, ',')` which just finds the space.
+
+  #q-i[foobar2000 的 `$strrchr(%v%,',')` 是搜索逗号，`$strrchr(%v%, ',')` 是搜索空格，刷新我见过的狗屎语法下限了]
+
+#a[I'm too dumb to understand the wiki. Please can you give me an introduction to "title formatting". : r/foobar2000][https://www.reddit.com/r/foobar2000/comments/yd9ixy/im_too_dumb_to_understand_the_wiki_please_can_you/]

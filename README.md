@@ -17,7 +17,8 @@
   - [foobar2000](Music/Players/foobar2000/README.typ)
     - [DSP](Music/Players/foobar2000/DSP.typ)
   - [MusicBee](Music/Players/MusicBee/README.typ)
-- Streaming
+- [Scrobbling](Music/Scrobbling/README.typ)
+- [Streaming](Music/Streaming/README.typ)
   - [Services](Music/Streaming/Services/README.md)
     - [YouTube Music](Music/Streaming/Services/YouTube%20Music.md)
     - [网易云音乐](Music/Streaming/Services/网易云音乐.md)
